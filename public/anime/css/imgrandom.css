@@ -1,0 +1,488 @@
+:root{
+    --Z-index-negatave : -1; 
+    --Z-index-positive : 1;
+    --font-Family : Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.circle{
+  background-color: #fff;
+  height: 100px;
+  width: 400px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  align-items: center;
+  text-align: center;
+  padding: 20px 50px ;
+  margin: 10px 240px 0px 0px;
+  float: right;
+  
+
+}
+.triangle-left {
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-right: 20px solid #fff;
+    border-bottom: 10px solid transparent;
+    float: right;
+   margin:  65px -20px 300px 100px;
+   transform: rotate(-158deg);
+   
+}
+
+.circle:hover{
+   
+    color: #1643be;
+}
+
+
+
+.formStyle{
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.testimg{
+    background-image: url("img/3.jpg");
+}
+.user{
+   
+    background: linear-gradient(to bottom right, #ffffff 0%, #73a5c7e7 120%);
+    
+    border: #3c84e2b6 3px solid ;
+    border-radius: 7px;
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    top: 58%;
+    transform: translate(-50%,-50%);
+    right: 530px;
+    align-items: center;
+    width: 510px;
+    height: 550px;
+    z-index: var(--Z-index-negatave);
+    box-shadow: #254b91 1px 2px 20px 2px ;
+    
+    
+    
+}
+.userforget{
+    background: linear-gradient(to bottom right, #ffffff 0%, #73a5c7e7 120%);
+    border: #3c84e2b6 3px solid ;
+    border-radius: 7px;
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    top: 59%;
+    transform: translate(-50%,-50%);
+    right: 530px;
+    align-items: center;
+    width: 510px;
+    z-index: var(--Z-index-negatave);
+    box-shadow: #254b91 1px 2px 20px 2px ;
+    
+}
+
+.userlogin{
+    background: linear-gradient(to bottom right, #ffffff 0%, #73a5c7e7 120%);
+    border: #3c84e2b6 3px solid ;
+    border-radius: 7px;
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+    right: 530px;
+    align-items: center;
+    width: 510px; 
+    z-index: var(--Z-index-negatave);
+    box-shadow: #254b91 1px 2px 20px 2px ;
+    
+    
+}
+
+.imgLogoAnime{
+    margin-top: 1px;
+    position: absolute;
+    left: 50%;
+    top: 17%;
+    transform: translate(-50%,-100%);
+    width:180px;
+    transition: 0.2s;
+    z-index: var(--Z-index-positive);
+   
+}
+
+.imgLogoAnimeRegister{
+    margin-top: 1px;
+    position: absolute;
+    left: 50%;
+    top: 1%;
+    transform: translate(-50%,-64%);
+    width:190px;
+    transition: 0.5s;
+    z-index: var(--Z-index-positive);
+}
+.imgLogoAnimeforgetpassword{
+    margin-top: 1px;
+    position: absolute;
+    left: 50%;
+    top: 1%;
+    transform: translate(-50%,-62%);
+    width:215px;
+    transition: 0.5s;
+    z-index: var(--Z-index-positive);
+   
+}
+.imgCancelstyle{
+    float: right;
+    width:20px;
+    height:20px;  
+}
+
+.lableStyle{
+    color: #857d7de1;
+    font-family: var(--font-Family);
+    font-size: 30px;
+    padding: 5px;
+}
+.googleSignUpStyle
+{
+   text-align: left;
+   background-color: #3268cc;
+   padding: 5px;
+   margin-left: 30px; 
+   margin-right: 30px; 
+   margin-bottom: 5px;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: .5s;
+}
+.googleSignUpStyle:hover{
+   background-color: #254b91;
+}
+.googleSignUpStyleAll{
+    background-color: #ffffff;
+    border-radius: 5px; 
+}
+.labelG{
+    cursor: pointer;
+    color: aliceblue;
+    padding: 5px; 
+    margin: 5px;
+    padding-top: 6px;
+}
+
+
+a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.OrStyle{
+    font-family: var(--font-Family);
+    font-size: 18px;
+    padding: 5px;
+    padding-top: 15px;
+    margin-left: 30px; 
+   margin-right: 30px; 
+   color: #1b6be4;
+}
+.OrStyle::after{
+    content:"ــــــــــــــــــــــــــــــــــــــــــــــــ";
+    position: absolute;
+    width: 40%;
+    height: 5px;
+    color: #1b6be4;
+    top: 166px;  
+}  
+.OrStyle::before {
+    content:"ــــــــــــــــــــــــــــــــــــــــــــــــ";
+    position: absolute;
+    width: 50%;
+    height: 5px;
+    left: 10px;
+    color: #1b6be4;
+    top: 166px;    
+}  
+
+.errorStyle{
+    color: #f01515cc;
+    font-family: var(--font-Family);
+    font-size: 12px;
+    padding: 3px;
+    margin: 3px;
+}
+
+
+    
+   
+input[type=email], input[type=password],input[type=text]{
+    
+    border: #1b6be4 1px solid ;
+    border-radius: 30px;
+    outline: none;
+    background: none;
+    padding: 5px;
+    padding-left: 20px;
+    margin: 3px;
+    opacity: 0.8;
+    
+}
+     
+.inputStyle{
+    display: grid; 
+    border: none;
+    padding:  10px 30px;
+    margin: 5px 5px;
+    font-family: var(--font-Family);
+    font-size: 16px;
+    text-align: center;
+    position: relative; 
+    
+}
+.inputStyle input:hover , .inputStyle  input:focus{
+    box-shadow: #254b91 0px 0px 8px 1px ;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+.btnStyle{
+    display: block;
+    width: 68%;
+    height: 45px;
+    border: none;
+    background-color: #3161b9;
+    background-size: 190%;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+    font-size: 16px;
+    margin-left: 15%; 
+    margin-right:15%; 
+    margin-bottom: 5px;
+    font-family: var(--font-Family);
+    border-radius: 5px;
+}
+.btnStyle:hover{
+    background-color: #3161b9;
+    font-family: var(--font-Family);
+    font-size: 20px;
+    animation: backGColorMove 2.2s infinite;
+    
+  }
+
+  @keyframes backGColorMove {
+    0%   { 
+        box-shadow:0px 0px 0px 0px #3161b9 inset;
+    }
+    25%{
+        box-shadow:0px 10px 50px 10px #8fa0d6 inset;
+        color: #14284e;
+    }
+    50%{
+        box-shadow:0px 10px 60px 10px #8fa0d6 inset;
+        color: #14284e;
+    }
+    100% { 
+        box-shadow:0px 0px 0px 0px #3161b9 inset;
+    }
+
+}
+
+ .Forgot-Register-btn{
+     display:inline-flex;
+     color: #1b6be4;
+     padding: 3px;
+     padding-top: 10px;
+     margin: 3px;
+     font-family: var(--font-Family);
+
+ } 
+ .Register-LoGIn-btn{
+    display:inline-flex;
+    color: #1b6be4;
+    padding: 3px;
+    padding-top: 5px;
+    margin: 3px;
+
+} 
+ .forgetStyle{
+     float: left;
+     padding-right: 30px;
+     
+ }
+ .registertStyle{
+    float: right;
+    padding-left: 30px;
+    margin-left: 30px;
+}
+
+.HeddenLY{
+    display: none;
+}
+
+
+
+
+
+/* media  */
+
+
+  @media only screen and (max-width: 627px) {
+    .user{  
+        width: 490px;   
+    } 
+    .userforget{
+        width: 450px; 
+    }
+    
+    .userlogin{
+        width: 450px;  
+    }
+   
+.OrStyle::after{
+    content:"ــــــــــــــــــــــــــــــــــــــــــــــ";
+    width: 40%;
+   
+}  
+.OrStyle::before {
+    content:"ــــــــــــــــــــــــــــــــــــــــــــــ";
+    width: 50%;
+    left: 10px;  
+}  
+
+.forgetStyle{
+    font-size: 14px;
+    padding-right: 30px;
+    
+}
+.registertStyle{
+    
+    font-size: 14px;
+}
+
+.imgLogoAnime{
+    top: 15%;
+    transform: translate(-50%,-100%);
+    width:150px;
+
+}
+
+.imgLogoAnimeRegister{
+   
+    width:180px;
+ 
+}
+.imgLogoAnimeforgetpassword{
+    top: 1%;
+    transform: translate(-50%,-62%);
+    width:200px;
+  
+   
+}
+  }
+
+
+  @media only screen and (max-width:585px) {
+    .user{
+        
+        width: 450px; 
+    }
+  
+        
+.OrStyle::after{
+    content:"ـــــــــــــــــــــــــــــــــــــــــــ";
+    width: 40%;
+   
+}  
+.OrStyle::before {
+    content:"ـــــــــــــــــــــــــــــــــــــــــــ";
+    width: 50%;
+    left: 10px;  
+}  
+   
+  }
+  @media only screen and (max-width:  529px) {
+    .user{
+        
+        width: 400px;  
+      }
+      .userforget{
+        width: 400px;  
+    }
+    .userlogin{
+        width: 400px;  
+    }
+      .forgetStyle{
+        font-size: 12px;
+          
+      }
+      .registertStyle{
+      font-size: 12px;
+     }
+  
+
+      .OrStyle::after{
+        content:"ـــــــــــــــــــــــــــــــــــ";
+        width: 38%;
+       
+    }  
+    .OrStyle::before {
+        content:"ـــــــــــــــــــــــــــــــــــ";
+        width: 50%;
+        left: 12px;  
+    }  
+   
+}
+
+  @media only screen and (max-width:479px){
+    .user{
+        
+        width: 350px;
+    }
+  
+    
+    .OrStyle::after{
+        content:"ـــــــــــــــــــــــــــــــــ";
+        width: 35%;
+       
+    }  
+    .OrStyle::before {
+        content:"ـــــــــــــــــــــــــــــــــ";
+        width: 50%;
+        left: 15px;  
+    } 
+  
+  }
+
+
+
+
+
+
+  
+
+  
+  
+
+
+
+
+
+
+
+
+

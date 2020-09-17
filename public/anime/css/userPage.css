@@ -1,0 +1,93 @@
+.imginfostyle img {
+    padding: 0px;
+    width:250px; 
+    height : 300px;
+}
+
+
+/* padUserPageMain1 */
+.padUserPageMain1{
+    padding: 40px 180px;
+}
+
+/* bacKGUserPageSection1 */
+.bacKGUserPageSection1{
+    background-color: #a8aec0;
+}
+
+/* nav userPage style */
+.nav-userPage-style{
+    padding: 5px 1px;
+    margin: auto;
+}
+
+/* td .nav-userPage-style{ 
+    
+} */
+
+
+/* imginfostyle */
+.imginfostyle{
+    padding: 0px;
+    margin:0px;
+}
+
+/* linkStyleUserpage */
+.linkStyleUserpage{
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+
+}
+
+/* style hr Userpage */
+.styleHRUserpage{
+    margin:10px;
+    padding: 10px;
+    border-top: 1px solid #22232ae8;
+    width: 1150px;
+}
+/* style hr User page End */
+.styleHRUserpageEnd{
+    margin: 0px;
+    padding-top: 15px;
+    border-top: 1px solid #22232ae8;
+    width: 100%;
+}
+
+/* para center */
+.pcenter{
+    text-align: center;
+}
+
+span img {
+    width: 10%;
+}
+
+/* style link memu nav <a href="#">Text 9</a> */
+.linkUserNav{
+    font-size: 22px;
+    padding: 4px 4px;
+    margin: 15px 5px;
+    text-align: center;
+    color: #343a44;
+    cursor: pointer;
+}
+.linkUserNav:hover,.linkUserNav:focus{
+    text-decoration: none;
+    background-color: #ffffff;
+    border-radius: 5px;
+    
+}
+.activenav{
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+
+.displaynone1{
+  display: none;
+}
+
+
+
